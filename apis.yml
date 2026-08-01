@@ -1,8 +1,25 @@
 aid: remesh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remesh.png
 name: Remesh
-description: Remesh is a company surfaced as a portfolio company of general-catalyst, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Remesh is an AI-powered market research and audience insights platform that runs live,
+  asynchronous, and video conversations with customers or employees at scale, using machine learning to
+  cluster, rank, and surface representative opinions from large groups in real time. Its products span
+  live AI-moderated focus groups, employee listening, and healthcare research, with an embedded research
+  assistant (Remy). Remesh is delivered as a hosted SaaS workspace at live.remesh.chat; it publishes no
+  public developer API, SDKs, or OpenAPI surface as of this profile. This record was surfaced as a
+  portfolio company of General Catalyst and Techstars and enriched with the provider's real published
+  identity, security, and trust artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/remesh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Market Research
+- Insights
+- Artificial Intelligence
+- Employee Listening
+- Focus Groups
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://remesh.ai/
+- type: Support
+  url: https://help.remesh.ai/
+- type: HelpCenter
+  url: https://help.remesh.ai/
+- type: Blog
+  url: https://remesh.ai/resources
+- type: Login
+  url: https://live.remesh.chat/signin
+- type: SignUp
+  url: https://remesh.ai/request-demo
+- type: TermsOfService
+  url: https://remesh.ai/policies/terms-of-use
+- type: PrivacyPolicy
+  url: https://live.remesh.chat/privacy-policy/
+- type: TrustCenter
+  url: security/remesh-trust-center.yml
+- type: Compliance
+  url: https://trust.remesh.ai/
+- type: DomainSecurity
+  url: security/remesh-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
